@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>MySSRF</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <servlet-name>SSRFDemo1</servlet-name>
+    <servlet-class>ssrf.MySSRF1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SSRFDemo1</servlet-name>
+    <url-pattern>/lltest/ssrf1</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>SSRFDemo12</servlet-name>
+    <servlet-class>ssrf.MySSRF12</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SSRFDemo12</servlet-name>
+    <url-pattern>/lltest/ssrf12</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>SSRFDemo2</servlet-name>
+    <servlet-class>ssrf.MySSRF2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SSRFDemo2</servlet-name>
+    <url-pattern>/lltest/ssrf2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>SSRFDemo3</servlet-name>
+    <servlet-class>ssrf.MySSRF3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SSRFDemo3</servlet-name>
+    <url-pattern>/lltest/ssrf3</url-pattern>
+  </servlet-mapping>
+  
+
+  
+</web-app>
